@@ -1,1 +1,2 @@
-colo blue
+syntax enable
+colorscheme monokai
