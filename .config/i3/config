@@ -95,16 +95,16 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10: "
+set $ws1 " 1  "
+set $ws2 " 2  "
+set $ws3 " 3  "
+set $ws4 " 4  "
+set $ws5 " 5  "
+set $ws6 " 6 "
+set $ws7 " 7 "
+set $ws8 " 8 "
+set $ws9 " 9  "
+set $ws10 " 10  "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -215,11 +215,11 @@ bar {
 # misc
 bindsym $mod+shift+x exec i3lock -
 bindsym $mod+shift+a focus parent,kill
-
-#bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 400 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
+bindsym $mod+shift+return thunar
 
 exec_always compton -f
-exec_always feh --bg-scale /home/enekow/Pictures/Wallpapers/wallpaper.png
+exec_always feh --bg-scale /home/enekow/Pictures/Wallpapers/w
+#exec_always feh --bg-scale /home/enekow/Pictures/Wallpapers/wallpaper.png
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
