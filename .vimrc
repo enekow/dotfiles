@@ -32,7 +32,7 @@ set showcmd
 set title
 
 " Use with caution!
-set mouse=a
+"set mouse=a
 
 " Learn Vim! 
 no <down> <Nop>
