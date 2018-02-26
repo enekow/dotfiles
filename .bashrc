@@ -15,3 +15,4 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 #PS1="\[$(tput bold)\]\[\033[38;5;39m\]@\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\u\[$(tput sgr0)\] \w \\$ \[$(tput sgr0)\]"
 PS1="\[$(tput bold)\]\[\033[38;5;39m\]@\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\u\[$(tput sgr0)\] \[$(tput bold)\]\[\033[38;5;39m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
 
+PROMPT_COMMAND='echo -en "\033]0; $("pwd") \a"'

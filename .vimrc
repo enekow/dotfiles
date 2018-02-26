@@ -29,8 +29,6 @@ set history=1000
 set undolevels=1000
 set showcmd
 
-set title
-
 " Use with caution!
 "set mouse=a
 
